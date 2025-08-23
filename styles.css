@@ -18,7 +18,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 25px;    
+    gap: 25px;
+    max-width: 95%;
 }
 
 .title {
@@ -103,4 +104,5 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
+    gap: 3px;
 }
